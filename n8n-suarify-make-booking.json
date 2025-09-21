@@ -1,4 +1,4 @@
-{
+ {
   "name": "Suarify Make Booking",
   "nodes": [
     {
@@ -772,8 +772,8 @@
     },
     {
       "parameters": {
-        "content": "## Demo\n\n \n![Demo](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/maindemo.gif)\n\n* [frontend code example](https://github.com/dragonjump/suarify-booking/blob/gh-pages/index.html/)\n* [try yourself](https://dragonjump.github.io/suarify-booking/)\n\n## Set up steps\n\n1. **Google Cloud Project and Vertex AI API**:\n   - Create a Google Cloud project.\n   - Enable the Vertex AI API for your project. \n\n2. **Google Calendar**:\n   - Follow setup link [n8n-google-calendar-setup](https://docs.n8n.io/integrations/builtin/credentials/google/)\n   - Follow capability link [n8n-google-calendar-capability](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/)\n\n\n3. **Setting up Google Calendar**:\n   - Add the public holiday calendar that you want in your calendar. (eg public holiday malaysia)\n   - Create a new booking-specific calendar. (eg. suarify-booking-calendar)\n   - In the current node for calendar, ensure you setup the same too\n\n \n![Setup Calendar](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/calendar-setup.png)\n\n4. **Changing business hours**:\n   - Change the param in node `ConfigTimeSlots`\n",
-        "height": 1632,
+        "content": "## Demo\n\n \n![Demo](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/full-demo-makebooking.gif)\n\n* [frontend code example](https://github.com/dragonjump/suarify-booking/blob/gh-pages/index.html/)\n* [try yourself](https://dragonjump.github.io/suarify-booking/)\n\n## Set up steps\n\n1. **Google Cloud Project and Vertex AI API**:\n   - Create a Google Cloud project.\n   - Enable the Vertex AI API for your project. \n\n2. **Google Calendar**:\n   - Follow setup link [n8n-google-calendar-setup](https://docs.n8n.io/integrations/builtin/credentials/google/)\n   - Follow capability link [n8n-google-calendar-capability](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/)\n\n\n3. **Setting up Google Calendar**:\n   - Add the public holiday calendar that you want in your calendar. (eg public holiday malaysia)\n   - Create a new booking-specific calendar. (eg. suarify-booking-calendar)\n   - In the current node for calendar, ensure you setup the same too\n\n \n![Setup Calendar](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/calendar-setup.png)\n\n4. **Changing business hours**:\n   - Change the param in node `ConfigTimeSlots`\n\n## Workflow snapshots\n\nSome last tested snapshots in n8n\n\n\n![2](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/working-evidence2.png)\n\n![1](https://raw.githubusercontent.com/dragonjump/suarify-booking/main/working-evidence3.png?raw=true)",
+        "height": 3200,
         "width": 660,
         "color": 3
       },
@@ -1148,7 +1148,7 @@
     "errorWorkflow": "T3UeD0i7EpvheSAi",
     "timeSavedPerExecution": 4
   },
-  "versionId": "c77752c0-c29d-46d4-a521-b28daf237d10",
+  "versionId": "7309319a-7619-4d37-ad5b-67e69bad5c2a",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "e93a01df1c52af0d5a5bffda998d2d45d3e65e41e9b02e756e368c852da9b80b"
